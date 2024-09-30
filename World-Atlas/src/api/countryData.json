@@ -1,0 +1,86 @@
+[
+  {
+    "id": 1,
+    "countryName": "Nepal",
+    "capital": "Kathmandu",
+    "population": 30000000,
+    "interestingFact": "Nepal is home to the world's tallest mountain, Mount Everest."
+  },
+  {
+    "id": 2,
+    "countryName": "India",
+    "capital": "New Delhi",
+    "population": 1400000000,
+    "interestingFact": "India is the world's largest democracy."
+  },
+  {
+    "id": 3,
+    "countryName": "China",
+    "capital": "Beijing",
+    "population": 1400000000,
+    "interestingFact": "China has the world's largest population."
+  },
+  {
+    "id": 4,
+    "countryName": "United States",
+    "capital": "Washington, D.C.",
+    "population": 330000000,
+    "interestingFact": "The United States is the world's largest economy."
+  },
+  {
+    "id": 5,
+    "countryName": "Russia",
+    "capital": "Moscow",
+    "population": 145000000,
+    "interestingFact": "Russia is the world's largest country by land area."
+  },
+  {
+    "id": 6,
+    "countryName": "Brazil",
+    "capital": "Brasília",
+    "population": 210000000,
+    "interestingFact": "Brazil is the world's largest Portuguese-speaking country."
+  },
+  {
+    "id": 7,
+    "countryName": "Nigeria",
+    "capital": "Abuja",
+    "population": 200000000,
+    "interestingFact": "Nigeria is the most populous country in Africa."
+  },
+  {
+    "id": 8,
+    "countryName": "Bangladesh",
+    "capital": "Dhaka",
+    "population": 160000000,
+    "interestingFact": "Bangladesh has the highest population density in the world."
+  },
+  {
+    "id": 9,
+    "countryName": "Pakistan",
+    "capital": "Islamabad",
+    "population": 220000000,
+    "interestingFact": "Pakistan is the only Muslim nuclear power in South Asia."
+  },
+  {
+    "id": 10,
+    "countryName": "Indonesia",
+    "capital": "Jakarta",
+    "population": 270000000,
+    "interestingFact": "Indonesia is the world's largest archipelago."
+  },
+  {
+    "id": 11,
+    "countryName": "Mexico",
+    "capital": "Mexico City",
+    "population": 130000000,
+    "interestingFact": "Mexico is the world's fifth-most populous country."
+  },
+  {
+    "id": 12,
+    "countryName": "Japan",
+    "capital": "Tokyo",
+    "population": 125000000,
+    "interestingFact": "Japan is the world's third-largest economy."
+  }
+]
