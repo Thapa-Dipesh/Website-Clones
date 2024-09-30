@@ -41,6 +41,7 @@ li {
 
 a {
   color: #000;
+  text-decoration: none;
 }
 a:hover {
   color: #2e86c1;
@@ -63,4 +64,101 @@ button {
   background: #202020;
   color: #fff;
   border-radius: 1.5rem;
+}
+
+/* Layout */
+
+.container {
+  max-width: 120rem;
+  margin: auto;
+}
+
+.grid {
+  display: grid;
+}
+
+.grid-two-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-three-cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid-four-cols {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+/* Layout */
+
+header {
+  height: 10rem;
+  box-shadow: rgba(33, 35, 38, 0.3) 0px 10px 10px -10px;
+  background-color: #202020;
+  width: 100%;
+}
+header .container {
+  height: 10rem;
+}
+
+.navbar-grid {
+  grid-template-columns: 0.5fr 1fr;
+  align-items: center;
+  height: 10rem;
+  padding: 0 3.2rem;
+}
+
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+  gap: 3.2rem;
+  color: #fff;
+}
+nav ul li a {
+  color: #fff;
+}
+
+.ham-menu {
+  display: none;
+}
+
+/* heor section */
+
+.hero-section .container {
+  padding: 3.2rem;
+  margin: 9rem auto;
+  gap: 6.4rem;
+}
+
+.pragraph {
+  margin: 3.2rem 0;
+}
+
+.heading-xl {
+  font-family: inherit;
+  font-size: clamp(5.2rem, 6vw, 4.241rem);
+  font-weight: 700;
+  line-height: 1.15;
+  letter-spacing: -1px;
+}
+
+.hero-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container .banner-image {
+  width: 100%;
+}
+
+@media screen and (max-width: 900) {
+  .hero-content {
+    order: 1;
+  }
+
+  .container .banner-image {
+    width: 80%;
+    order: 0;
+  }
 }
