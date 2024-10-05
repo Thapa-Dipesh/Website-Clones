@@ -1,8 +1,9 @@
 import footerContact from "../../api/footerApi.json";
 
 export const Footers = () => {
+  
   return (
-    <footer className="footer-section">
+    <footer className="section-footer">
       <div className="container grid grid-three-cols">
         {footerContact.map((curData, index) => {
           const { icon, title, details } = curData;
