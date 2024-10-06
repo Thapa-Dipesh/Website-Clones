@@ -1,16 +1,16 @@
 [
   {
-    "icon": "MdPlace",
+    "icon": "IoLocation",
     "title": "Find us",
-    "details": "Pune, Maharashtra"
+    "details": "Pokhara, Kaski"
   },
   {
-    "icon": "IoCallSharp",
+    "icon": "IoCall",
     "title": "Call us",
     "details": "98********"
   },
   {
-    "icon": "TbMailPlus",
+    "icon": "IoMail",
     "title": "Mail us",
     "details": "contactus@gmail.com"
   }

@@ -1,7 +1,15 @@
 import footerContact from "../../api/footerApi.json";
+import { NavLink } from "react-router-dom";
+// import { IoLocation } from "react-icons/io5";
+// import { IoCall } from "react-icons/io5";
+// import { IoMail } from "react-icons/io5";
 
 export const Footers = () => {
-  
+  // const footerIcon = {
+  //   IoLocation: <IoLocation />,
+  //   IoCall: <IoCall />,
+  //   IoMail: <IoMail />,
+  // };
   return (
     <footer className="section-footer">
       <div className="container grid grid-three-cols">
