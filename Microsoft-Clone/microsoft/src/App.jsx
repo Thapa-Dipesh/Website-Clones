@@ -1,8 +1,13 @@
-function App() {
+import Header from "./components/Header";
+import Section from "./Section-1/Section";
 
+function App() {
   return (
-    <><h1>Microsoft</h1></>
-  )
+    <>
+      <Header />
+      <Section />
+    </>
+  );
 }
 
-export default App
+export default App;
