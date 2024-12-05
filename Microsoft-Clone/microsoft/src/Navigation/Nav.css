@@ -1,0 +1,28 @@
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: sans-serif;
+    font-size: 12px;
+    padding: 16px;
+}
+
+.left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.left .img{
+    width: 110px;
+    margin-right: 10px;
+}
+
+.right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}
+
