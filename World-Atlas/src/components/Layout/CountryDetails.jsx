@@ -1,9 +1,11 @@
-import { useState, useEffect, useTransition } from "react";
-import { getCountryData } from "../api/postApi";
-import { CountryCard } from "../components/Layout/CountryCard";
-import { Loader } from "../components/UI/Loader";
+import { useEffect, useState, useTransition } from "react";
+import { useParams } from "react-router-dom";
+import { getCountryData } from "../../api/postApi";
+import { CountryCard } from "./CountryCard";
 
-export const Country = () => {
+export const CountryDetails = () => {
+  const params = useParams();
+
   const [isPending, startTransition] = useTransition();
   const [countries, setCountries] = useState([]);
 

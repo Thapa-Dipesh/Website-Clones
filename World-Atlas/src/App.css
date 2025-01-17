@@ -124,7 +124,7 @@ nav ul li a {
 
 /* heor section */
 
-.hero-section .container {
+.hero-section {
   padding: 3.2rem;
   margin: 9rem auto;
   gap: 6.4rem;
@@ -148,7 +148,7 @@ nav ul li a {
   align-items: center;
 }
 
-.container .banner-image {
+.banner-image {
   width: 100%;
 }
 
@@ -157,7 +157,7 @@ nav ul li a {
     order: 1;
   }
 
-  .container .banner-image {
+  .banner-image {
     width: 80%;
     order: 0;
   }
@@ -329,4 +329,11 @@ form button:hover {
 .footer-contact-text :nth-child(2) {
   font-size: 1.25rem;
   color: rgba(255, 255, 255, 0.5);
+}
+
+
+/* Country Section */
+.country-section {
+  overflow-x: hidden;
+  margin: 10rem auto 6rem auto;
 }
