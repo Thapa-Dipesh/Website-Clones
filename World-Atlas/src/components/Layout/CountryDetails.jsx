@@ -19,8 +19,8 @@ export const CountryDetails = () => {
   if (isPending) return <Loader />;
 
   return (
-    <section className="country-section container">
-      <ul className="grid grid-four-cols">
+    <section className="country-section">
+      <ul className="gradient-cards country-cards">
         {countries.map((curCountry, index) => {
           return <CountryCard country={curCountry} key={index} />;
         })}

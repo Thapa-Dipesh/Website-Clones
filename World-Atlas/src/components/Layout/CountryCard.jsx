@@ -3,11 +3,11 @@ import { NavLink } from "react-router-dom";
 export const CountryCard = ({ country }) => {
   const { flags, name, population, region, capital } = country;
   return (
-    <li className="country-card card">
-      <div className="container-card bg-white">
-        <img src={flags.png} alt={flags.alt} />
+    <li>
+      <div className="container-card">
+        <img className="img-container" src={flags.png} alt={flags.alt} />
 
-        <div className="countryInfo">
+        <div>
           <p className="card-title">
             {name.common.length > 10
               ? name.common.slice(0, 10) + "..."
@@ -27,7 +27,7 @@ export const CountryCard = ({ country }) => {
           </p>
 
           <NavLink to={`/country/${name.common}`}>
-            <button>Read More</button>
+            <button className="country-btn">Read More</button>
           </NavLink>
         </div>
       </div>
