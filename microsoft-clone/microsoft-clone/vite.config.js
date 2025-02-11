@@ -4,7 +4,7 @@ import react from '@vitejs/plugin-react'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '/microsoft-clone/microsoft-clone/',
+  base: '/microsoft-clone/',
   build: {
     outDir: 'build', // Change output directory to 'build'
   },
