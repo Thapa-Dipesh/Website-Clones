@@ -4,6 +4,7 @@
     justify-content: center;
     gap: 24px;
     margin-top: 96px;
+    cursor: pointer;
 }
 .card{
     width: 360px;
