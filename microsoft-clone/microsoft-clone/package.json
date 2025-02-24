@@ -1,12 +1,12 @@
 {
-  "homepage":"https://Thapa-Dipesh.github.io/Website-Clones/microsoft-clone",
+  "homepage": "https://Thapa-Dipesh.github.io/Website-Clones/microsoft-clone/microsoft-clone",
   "name": "microsoft",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
