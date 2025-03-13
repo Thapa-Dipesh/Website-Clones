@@ -52,7 +52,7 @@ This repository serves as an archive for a collection of mini projects implement
 -   Clone this repository:
 
     ```bash
-    git clone [https://github.com/your-username/Website-Clones_Archive.git](https://github.com/your-username/Website-Clones_Archive.git)
+    git clone [https://github.com/your-username/Website-Clones.git](https://github.com/your-username/Website-Clones.git)
     ```
 
 -   Explore each project in its respective directory to find implementation details.
